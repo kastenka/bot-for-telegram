@@ -1,0 +1,26 @@
+CREATE TABLE sessions (
+	id INTEGER PRIMARY KEY,
+	startTime VARCHAR(50),
+	question VARCHAR(50),
+	answer VARCHAR(50));
+
+
+
+	CREATE TABLE questions (
+	id INTEGER PRIMARY KEY,
+	question VARCHAR(50),
+	answer VARCHAR(50));
+	
+	
+INSERT INTO questions (question, answer) VALUES ('В каком году началась Первая мировая война?', '1914');
+INSERT INTO questions (question, answer) VALUES ('Кто был первым императором Российской империи?', 'Петр Первый, Петр 1, Петр');
+INSERT INTO questions (question, answer) VALUES ('В каком городе родился Сократ?', 'Афины');
+
+INSERT INTO questions (question, answer) VALUES ('Столица Цехии?', 'Прага');	
+
+
+INSERT INTO questions (question, answer) VALUES ('Столица Словении?', 'Люблюна');	
+INSERT INTO questions (question, answer) VALUES ('Столица Черногории?', 'Подгорица');	
+INSERT INTO questions (question, answer) VALUES ('Столица Албании?', 'Тирана');	
+
+	
