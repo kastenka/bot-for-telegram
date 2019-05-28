@@ -32,8 +32,8 @@ import java.util.stream.Collectors;
 
 @Component
 public class DailyBot extends TelegramLongPollingBot{
-    private final String BOT_USER_NAME = "ourdailybot";
-    private final String TOKEN = "684603681:AAHrmSdNK_t-al4vv7oa1X5E_h_l5_z9nTs";
+    private final String BOT_USER_NAME = "";
+    private final String TOKEN = "";
     String a = "";
     boolean menu = true;
     boolean menu1 = false;
